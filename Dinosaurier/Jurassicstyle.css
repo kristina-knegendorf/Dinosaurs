@@ -1,0 +1,177 @@
+header {
+    backdrop-filter: blur(10px);
+    background-color: rgba(200, 63, 0, 0.5);
+    border-bottom: rgb(199, 202, 31) 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: -8px;
+    padding: 15px;
+    position: sticky; 
+    top: 0;
+    z-index: 999;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    border: rgb(199, 202, 31) 2px solid;
+    background-color: rgba(80, 83, 85, 0.5);
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    margin: 2px;
+
+} 
+nav li:nth-child(1) a:hover{
+    background-color: rgba(0, 200, 0, 0.5);
+}
+nav li:nth-child(2) a:hover{
+    background-color: rgba(0, 200, 173, 0.5);
+}
+nav li:nth-child(3) a:hover{
+    background-color: rgba(116, 37, 0, 0.74);
+}
+nav li:nth-child(4) a:hover{
+    background-color: rgba(145, 0, 0, 0.781);
+}
+
+body {
+    background-image: url(./img/v-multi-digital-art-time-travel-to-jurassic-logo-small.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 50px; 
+    color: black;
+    text-shadow: 1px 1px 2px rgb(224, 155, 64), 0 0 1em rgb(145, 255, 0), 0 0 0.2em rgb(178, 61, 32);
+}
+.container {
+    border: rgb(199, 202, 31) 2px solid;
+    backdrop-filter: blur(60px);
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px; 
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.text-section{
+    flex: 1;
+    padding-right: 20px;
+    padding-left: 20px; 
+    font-size: 20px;
+}
+
+
+
+img {
+    width: 400px;
+    object-fit: contain;
+}
+
+
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    border: rgb(199, 202, 31) 2px solid;
+    backdrop-filter: blur(60px);
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 450px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px; 
+    padding: 10px;
+    border-radius: 25px;
+}
+ 
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.row2-item img{
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+.container-cards{
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.card{
+    border: rgb(199, 202, 31) 2px solid;
+    backdrop-filter: blur(50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px; 
+    width: auto;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.2);
+} 
+
+
+.image-card,
+.img-card2{
+    
+    width: 300px;
+    height: auto;
+    object-fit: cover; 
+}
+
+.card-text {
+    text-align: center;
+    word-wrap: break-word;
+    width: 100%
+}
+
+.list-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0; 
+}
+
+
+
+span,.triassic,.allo{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
